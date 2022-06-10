@@ -1,0 +1,10 @@
+Package: markdownTemplates
+Type: Package
+Title: Custom RMarkdown Tempplates
+Version: 0.1.0
+Author: Philipp Musfeld
+Maintainer: Philipp Musfeld <p.musfeld@gmail.com>
+Description: This packages hosts custom RMarkdown Templates
+License: MIT
+Encoding: UTF-8
+LazyData: true
