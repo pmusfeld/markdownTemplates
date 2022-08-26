@@ -14,7 +14,7 @@ knit: (function(inputFile, encoding) {
 ##### plotting function
 source("https://gist.githubusercontent.com/pmusfeld/0711e413303db0c495cca1a787862196/raw/9b517c3997dcbc9741597b2bce442adc314d692b/plot-summary-functions.R")
 ##### ggplot theme
-source("https://gist.githubusercontent.com/pmusfeld/7aedff480c563b643e6d905ead1fe6ed/raw/780f5e7169f776e0bf63963ad15f77f110bf8aa6/my_ggplot_themes.R")
+source("https://gist.githubusercontent.com/pmusfeld/7aedff480c563b643e6d905ead1fe6ed/raw/2a68aae897837707b902e3b7eda076cb128d19bb/my_ggplot_themes.R")
 #### install load packages
 source("https://gist.githubusercontent.com/pmusfeld/e87568c3bb5b29e858384f1eba3150bf/raw/25ea455d07c5c5d06672c635926f76546738499b/install_load_packages.R")
 
@@ -32,7 +32,7 @@ knitr::opts_knit$set(root.dir = dirname(rstudioapi::getSourceEditorContext()$pat
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, error = FALSE)
 
 ### suppress dplyr summarize messages:
-options(dplyr.summarise.inform=FALSE)
+options(dplyr.summarise.inform = FALSE)
 
 ### activate ggplot theme
 my_theme_black()
